@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Fredoka:wght@400;500;600;700&family=Poppins:ital,wght@0,200;1,100;1,400&family=Raleway:wght@100&family=Roboto:wght@900&display=swap');
+
+* {
+    margin: 0;
+    /* margin-top: 1vh; */
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+
+}
+
+#searchbar {
+    height: 40px;
+    width: 900px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+    background-color: rgb(18, 18, 45);
+    color: white;
+}
+
+#afterlogo {
+    margin-top: 15px;
+}
+
+#address {
+    margin-top: 15px;
+}
+#all{
+    margin-top: 17px;
+    margin-left: 10px;
+    width: 40px;
+    background-color: white;
+    color: black;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 800;
+}
+#searchbar{
+    margin-top: 5px;
+}
+#search{
+    margin-top: 14px;
+    width: 40px;
+    height: 37px;
+    background-color: #cfd843;
+    border-radius: 10px;
+    
+}
+#flag{
+    margin-top: 15px;
+}
+#signin{
+    margin-top: 10px;
+}
+#returns{
+    margin-top: 10px;
+}
+#cart{
+    margin-top: 10px;
+}
+.twoway{
+    display: flex;
+    gap: 35px;
+    background-color: rgb(16, 38, 84);
+    color: white;
+    font-weight: 400;
+    width: auto;
+    height: 50px;
+    font-size: large;
+    font-style: normal;
+}
+#bar{
+    right: 0px;
+}
+#left{
+    position: absolute;
+    top: 350px;
+}
+#right{
+    position: absolute;
+    top: 350px;
+    right: 0px;
+}
+.onewhite{
+    position: absolute;
+    bottom: 70px;
+    left: 50px;
+    padding: 10px;
+    background-color: white;
+    height: 400px;
+    width: 430px;
+    gap: 30px;
+}
+.up{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.twowhite{
+    position: absolute;
+    bottom: 70px;
+    left: 550px;
+    padding: 20px;
+    background-color: white;
+    height: 380px;
+    width: 430px;
+    gap: 30px;
+}
+.up2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.threewhite{
+    position: absolute;
+    bottom: 70px;
+    right: 450px;
+    padding: 10px;
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    gap: 30px;
+}
+.up3{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+#xyz{
+    background-image: url(assets/background\ picture.png);
+    height: 850px;
+    width: 1920px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.signin2{
+     width: 300px;
+     height: 250px;
+     background-color: white;
+     position: absolute;
+     right: 20px;
+}
